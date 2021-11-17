@@ -1,0 +1,77 @@
+body {
+  background-image: url('../imagenes/fondo.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-color:lightgray;
+}
+
+.contenedor{
+  width: 400px;
+  margin: 5% auto;
+  border-radius: 20px;
+  background-color: rgba(23, 32, 42, 0.4);
+  box-shadow: 0 0 10px #1A7FB9;
+}
+.encabezado {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.encabezado h1{
+  color: #188ACA;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.principal{
+  text-align: center;
+}
+
+.principal input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  color: #188ACA;
+  margin-bottom: 20px;
+}
+
+.principal input:hover{
+  box-shadow: 2px 2px 5px #1A7FB9;
+  background-color: #DDE0E2;
+}
+
+.principal span{
+  position: relative;
+}
+
+.principal i{
+  position: absolute;
+  left: 10px;
+  color: #188ACA;
+  top: 2px;
+  font-size: 15px;
+}
+
+.principal button{
+  width:300px;
+  height:40px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  font-size: 20px;
+  background-color: #188ACA;
+  color: white;
+}
+
+.principal button:hover{
+  box-shadow: 2px 2px 5px #1A7FB9;
+  color: #188ACA;
+  background-color: white;
+}
